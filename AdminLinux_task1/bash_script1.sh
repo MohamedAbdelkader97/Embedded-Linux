@@ -1,15 +1,15 @@
 #!/bin/bang
 echo please enter your name
 read name
-echo Hello MR $name
-cd /home/mohamed
+echo Hello $name
+cd ~
 rm -r Mydirectory
 mkdir Mydirectory
 cd ./Mydirectory
 mkdir MySecondDirectory
 cd ./MySecondDirectory
 touch myNotePaper
-cp myNotePaper cd ../
+cp myNotePaper  ~/Mydirectory
 cd ../
 mv myNotePaper myOldNotePaper
-echo Thank you MR $name
+echo Thank you $name
